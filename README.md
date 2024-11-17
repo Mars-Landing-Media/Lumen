@@ -117,7 +117,6 @@ api.controller=function($scope,spUtil) {
 
 ### CSS
 ```css
-*{border: none !important;}
 label {font-weight: bold;}
 #recData{margin-top:50px;}
 #message{margin-top:50px;}
