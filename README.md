@@ -123,7 +123,7 @@ api.controller=function($scope,spUtil) {
 ### CSS
 ```css
 label {font-weight:bold;margin-right:3px;}
-#recData,#message{margin-top:50px;}
+#recData,#message {margin-top:50px;}
 ```
 
 
