@@ -68,3 +68,59 @@ The following Service Portal widget example is for **illustrative purposes only*
     data.openedFor = getData.opened_for.name.toString();
     data.shortDescription = getData.short_description.toString();
 })();
+```
+### Client-Side Script
+```javascript
+api.controller=function($scope,spUtil) {
+    var c = this;
+
+    c.getRcd = String($scope.data.rcd);
+
+    var getRcd = String($scope.data.rcd);
+    var getTbl = String($scope.data.tbl);
+
+    spUtil.recordWatch($scope,getTbl,"sys_id="+getRcd,function(name){
+        $scope.$apply();
+        spUtil.update($scope);
+    });
+};
+```
+
+
+### HTML Template
+```html
+<div>
+    <div id="header">
+        <table width="100%">
+            <tr>
+                <td width="20%"><svg width="48" height="48" viewBox="0 0 64 64">...</svg></td>
+                <td width="80%" style="display: flex; align-items: center; justify-content: center;">
+                    <h3>MARS LANDING MEDIA LLC</h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="recData">
+        <div><label>Table From Workspace parameter:</label><span>{{data.tbl}}</span></div>
+        <div><label>SysId From Workspace parameter:</label><span>{{data.rcd}}</span></div>
+        <div><label>Record Number:</label><span>{{data.recNumber}}</span></div>
+        <div><label>Opened For:</label><span>{{data.openedFor}}</span></div>
+        <div><label>Short Description:</label><span>{{data.shortDescription}}</span></div>
+    </div>
+
+    <div id="message">
+        This portal widget can be configured to display or interact with the workspace record data.
+    </div>
+</div>
+```
+
+### HTML Template
+```css
+*{border: none !important;}
+label {font-weight: bold;}
+#recData{margin-top:50px;}
+#message{margin-top:50px;}
+```
+
+
