@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<unload>
+  <sys_remote_update_set action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <application_name>marslanding-lumen</application_name>
+    <application_scope>x_marsl_lumen</application_scope>
+    <application_version>1.0.0</application_version>
+    <description>Mars Landing Media LLC, Lumen UIB Component. This component is used to wrap Service Portal widgets. The widgets accept URL parameters table and sysId. Developed by: Jon DeLuna.</description>
+    <name>Mars Landing Media Lumen (UIB)</name>
+    <state>loaded</state>
+    <sys_class_name>sys_remote_update_set</sys_class_name>
+    <sys_id>642c3091f1434600ac343b2425d10834</sys_id>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_remote_update_set>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application display_value="marslanding-lumen">b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_app_b3bde834aea3a126b1d1eff546cd5216</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<record_update table="sys_app">
+  <sys_app action="INSERT_OR_UPDATE">
+    <name>marslanding-lumen</name>
+    <sys_id>b3bde834aea3a126b1d1eff546cd5216</sys_id>
+    <scope>x_marsl_lumen</scope>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+    <active>true</active>
+    <can_edit_in_studio>true</can_edit_in_studio>
+    <enforce_license>none</enforce_license>
+    <hide_on_ui>false</hide_on_ui>
+    <installed_as_dependency>false</installed_as_dependency>
+    <js_level>es_latest</js_level>
+    <licensable>true</licensable>
+    <private>false</private>
+    <scoped_administration>false</scoped_administration>
+    <source>x_marsl_lumen</source>
+    <sys_class_name>sys_app</sys_class_name>
+    <trackable>true</trackable>
+    <uninstall_blocked>false</uninstall_blocked>
+    <version>1.0.0</version>
+  </sys_app>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>a211d18ab57d4059bb593872b2283262</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>Custom Application</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_lib_asset_9bb385d766e504efd1732f4660b998f0</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_lib_asset action="INSERT_OR_UPDATE">
+    <name>marslanding-lumen/index</name>
+    <mime_type>application/javascript</mime_type>
+    <checksum>a14cdd3b08d6f58a5dba34e34dfbb870</checksum>
+    <bundled_asset>false</bundled_asset>
+    <category>component</category>
+    <exposed_global_name/>
+    <sys_id>9bb385d766e504efd1732f4660b998f0</sys_id>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <es_module>true</es_module>
+    <content_meta>{"tectonicVersion":"27.4.1","imports":[{"kind":"import-statement","path":"/uxasset/externals/@servicenow/ui-core/index.jsdbx"},{"kind":"import-statement","path":"/uxasset/externals/@servicenow/ui-renderer-snabbdom/index.jsdbx"}],"exports":[]}</content_meta>
+    <dependencies/>
+    <content>import*as e from"/uxasset/externals/@servicenow/ui-renderer-snabbdom/index.jsdbx";
+import*as t from"/uxasset/externals/@servicenow/ui-core/index.jsdbx";
+/*__ESM_BODY_START__*/
+var r={105:(e,t,r)=&gt;{r.r(t),r.d(t,{default:()=&gt;d});var a=r(68),n=r.n(a),o=r(301),l=r.n(o)()(n());l.push([e.id,':host{box-sizing:border-box;font-family:var(--now-font-family,"Source Sans Pro",sans-serif);line-height:var(--now-line-height,1.25)}:host([hidden]){display:none}*,:after,:before{box-sizing:border-box}#portalPage,#portalPage iframe{height:100%;width:100%}',""]);const d=l},301:e=&gt;{e.exports=function(e){var t=[];return t.toString=function(){return this.map((function(t){var r="",a=void 0!==t[5];return t[4]&amp;&amp;(r+="@supports (".concat(t[4],") {")),t[2]&amp;&amp;(r+="@media ".concat(t[2]," {")),a&amp;&amp;(r+="@layer".concat(t[5].length&gt;0?" ".concat(t[5]):""," {")),r+=e(t),a&amp;&amp;(r+="}"),t[2]&amp;&amp;(r+="}"),t[4]&amp;&amp;(r+="}"),r})).join("")},t.i=function(e,r,a,n,o){"string"==typeof e&amp;&amp;(e=[[null,e,void 0]]);var l={};if(a)for(var d=0;d&lt;this.length;d++){var u=this[d][0];null!=u&amp;&amp;(l[u]=!0)}for(var i=0;i&lt;e.length;i++){var s=[].concat(e[i]);a&amp;&amp;l[s[0]]||(void 0!==o&amp;&amp;(void 0===s[5]||(s[1]="@layer".concat(s[5].length&gt;0?" ".concat(s[5]):""," {").concat(s[1],"}")),s[5]=o),r&amp;&amp;(s[2]?(s[1]="@media ".concat(s[2]," {").concat(s[1],"}"),s[2]=r):s[2]=r),n&amp;&amp;(s[4]?(s[1]="@supports (".concat(s[4],") {").concat(s[1],"}"),s[4]=n):s[4]="".concat(n)),t.push(s))}},t}},68:e=&gt;{e.exports=function(e){return e[1]}},869:(e,t,r)=&gt;{var a=r(105);a&amp;&amp;a.__esModule&amp;&amp;(a=a.default),e.exports="string"==typeof a?a:a.toString()}},a={};function n(e){var t=a[e];if(void 0!==t)return t.exports;var o=a[e]={id:e,exports:{}};return r[e](o,o.exports,n),o.exports}n.n=e=&gt;{var t=e&amp;&amp;e.__esModule?()=&gt;e.default:()=&gt;e;return n.d(t,{a:t}),t},n.d=(e,t)=&gt;{for(var r in t)n.o(t,r)&amp;&amp;!n.o(e,r)&amp;&amp;Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},n.o=(e,t)=&gt;Object.prototype.hasOwnProperty.call(e,t),n.r=e=&gt;{"undefined"!=typeof Symbol&amp;&amp;Symbol.toStringTag&amp;&amp;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var o={};n.r(o);const l=(e=&gt;{var t={};return n.d(t,e),t})({createElement:()=&gt;{const t=e.default&amp;&amp;e.__esModule;return t?e.default.createElement:e.createElement||e.default&amp;&amp;e.default.createElement},default:()=&gt;{const t=e.default&amp;&amp;e.__esModule;return t?e.default&amp;&amp;e.default.default?e.default.default:e.default:t?e.default.default:e.default?e.default.default?e.default.default:e.default:e}});const d=(e=&gt;{var t={};return n.d(t,e),t})({createCustomElement:()=&gt;{const e=t.default&amp;&amp;t.__esModule;return e?t.default.createCustomElement:t.createCustomElement||t.default&amp;&amp;t.default.createCustomElement}});var u=n(869),i=n.n(u);(0,d.createCustomElement)("marslanding-lumen",{renderer:{type:l.default},view:(e,t)=&gt;{let{updateState:r}=t;const a=e.properties;var n=a.frameUrl+("&amp;table="+a.frameTable)+("&amp;record="+a.frameRecord);return a.paramJSON&amp;&amp;(n+="&amp;paramjson="+a.paramJSON),(0,l.createElement)("div",{id:"portalPage"},(0,l.createElement)("iframe",{id:"portal-page",src:n,title:""}))},properties:{frameUrl:{default:"URL &amp; Parameters"},frameRecord:{default:""},frameTable:{default:""},paramJSON:{default:""}},styles:i()}),window.__TECTONIC__marslanding_lumen=o;
+/*__ESM_BODY_END__*/
+//# sourceMappingURL=/uxasset/externals/marslanding-lumen/index.min.js.map.jsdbx</content>
+    <is_attachment>false</is_attachment>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy>read</sys_policy>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <engine>21</engine>
+    <sys_class_name>sys_ux_lib_asset</sys_class_name>
+    <sys_update_name>sys_ux_lib_asset_9bb385d766e504efd1732f4660b998f0</sys_update_name>
+  </sys_ux_lib_asset>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>9bb385d766e504efd1732f4660b998f0</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>UX Asset</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_lib_asset_46a8eb948cb83692aea86c71db63a29d</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_lib_asset action="INSERT_OR_UPDATE">
+    <name>marslanding-lumen/index.min.js.map</name>
+    <mime_type>application/json</mime_type>
+    <checksum>20e4217d116b888edbef974538734380</checksum>
+    <bundled_asset>false</bundled_asset>
+    <category>source_map</category>
+    <exposed_global_name/>
+    <sys_id>46a8eb948cb83692aea86c71db63a29d</sys_id>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <es_module>false</es_module>
+    <content_meta>{"tectonicVersion":"27.4.1","imports":[],"exports":[]}</content_meta>
+    <dependencies/>
+    <content>{"version":3,"file":"externals/marslanding-lumen/index.min.js","mappings":"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","sources":["webpack:///marslanding-lumen\\src\\marslanding-lumen\\styles.scss","webpack:///css-loader\\6.7.1\\dist\\runtime\\api.js","webpack:///css-loader\\6.7.1\\dist\\runtime\\noSourceMaps.js","webpack:///./src/marslanding-lumen/styles.scss?887f","webpack:///webpack/bootstrap","webpack:///webpack/runtime/compat get default export","webpack:///webpack/runtime/define property getters","webpack:///webpack/runtime/hasOwnProperty shorthand","webpack:///webpack/runtime/make namespace object","webpack:///external module \"/uxasset/externals/@servicenow/ui-renderer-snabbdom/index.jsdbx\"","webpack:///external module \"/uxasset/externals/@servicenow/ui-core/index.jsdbx\"","webpack:///marslanding-lumen\\src\\marslanding-lumen\\index.js","webpack:///marslanding-lumen\\src\\__imaginary__\\entry-wrapper.js"],"sourcesContent":["// Imports\nimport ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ from \"../../../../../.extensions/ui-component/node_modules/@servicenow/cli/node_modules/css-loader/dist/runtime/noSourceMaps.js\";\nimport ___CSS_LOADER_API_IMPORT___ from \"../../../../../.extensions/ui-component/node_modules/@servicenow/cli/node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":host{box-sizing:border-box;font-family:var(--now-font-family,\\\"Source Sans Pro\\\",sans-serif);line-height:var(--now-line-height,1.25)}:host([hidden]){display:none}*,:after,:before{box-sizing:border-box}#portalPage,#portalPage iframe{height:100%;width:100%}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n","\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length &gt; 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n\n      content += cssWithMappingToString(item);\n\n      if (needLayer) {\n        content += \"}\";\n      }\n\n      if (item[2]) {\n        content += \"}\";\n      }\n\n      if (item[4]) {\n        content += \"}\";\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n\n\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var k = 0; k &lt; this.length; k++) {\n        var id = this[k][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _k = 0; _k &lt; modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n\n      if (dedupe &amp;&amp; alreadyImportedModules[item[0]]) {\n        continue;\n      }\n\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length &gt; 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};","\"use strict\";\n\nmodule.exports = function (i) {\n  return i[1];\n};","\n        var result = require(\"!!../../../../../.extensions/ui-component/node_modules/@servicenow/cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!../../../../../.extensions/ui-component/node_modules/@servicenow/cli/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!../../../../../.extensions/ui-component/node_modules/resolve-url-loader/index.js??ruleSet[1].rules[2].use[3]!../../../../../.extensions/ui-component/node_modules/@servicenow/cli/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[4]!./styles.scss\");\n\n        if (result &amp;&amp; result.__esModule) {\n            result = result.default;\n        }\n\n        if (typeof result === \"string\") {\n            module.exports = result;\n        } else {\n            module.exports = result.toString();\n        }\n    ","// The module cache\nvar __webpack_module_cache__ = {};\n\n// The require function\nfunction __webpack_require__(moduleId) {\n\t// Check if module is in cache\n\tvar cachedModule = __webpack_module_cache__[moduleId];\n\tif (cachedModule !== undefined) {\n\t\treturn cachedModule.exports;\n\t}\n\t// Create a new module (and put it into the cache)\n\tvar module = __webpack_module_cache__[moduleId] = {\n\t\tid: moduleId,\n\t\t// no module.loaded needed\n\t\texports: {}\n\t};\n\n\t// Execute the module function\n\t__webpack_modules__[moduleId](module, module.exports, __webpack_require__);\n\n\t// Return the exports of the module\n\treturn module.exports;\n}\n\n","// getDefaultExport function for compatibility with non-harmony modules\n__webpack_require__.n = (module) =&gt; {\n\tvar getter = module &amp;&amp; module.__esModule ?\n\t\t() =&gt; (module['default']) :\n\t\t() =&gt; (module);\n\t__webpack_require__.d(getter, { a: getter });\n\treturn getter;\n};","// define getter functions for harmony exports\n__webpack_require__.d = (exports, definition) =&gt; {\n\tfor(var key in definition) {\n\t\tif(__webpack_require__.o(definition, key) &amp;&amp; !__webpack_require__.o(exports, key)) {\n\t\t\tObject.defineProperty(exports, key, { enumerable: true, get: definition[key] });\n\t\t}\n\t}\n};","__webpack_require__.o = (obj, prop) =&gt; (Object.prototype.hasOwnProperty.call(obj, prop))","// define __esModule on exports\n__webpack_require__.r = (exports) =&gt; {\n\tif(typeof Symbol !== 'undefined' &amp;&amp; Symbol.toStringTag) {\n\t\tObject.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });\n\t}\n\tObject.defineProperty(exports, '__esModule', { value: true });\n};","var x = y =&gt; { var x = {}; __webpack_require__.d(x, y); return x; }\nvar y = x =&gt; () =&gt; x\nconst __WEBPACK_NAMESPACE_OBJECT__ = x({ [\"createElement\"]: () =&gt; {\n\t\t\t\t\tconst cjsModule = __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__.default &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__.__esModule\n\t\t\t\t\tif (cjsModule &amp;&amp; 'createElement' === 'default') {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"] &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"] ? __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"] : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"];\n\t\t\t\t\t} else if (cjsModule)  {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"].createElement;\n\t\t\t\t\t} else if ('createElement' === 'default') {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"] ? (__WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"] ? __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"] : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"]) : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__;\n\t\t\t\t\t}\n\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__.createElement || __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"] &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"].createElement;\n\t\t\t\t}, [\"default\"]: () =&gt; {\n\t\t\t\t\tconst cjsModule = __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__.default &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__.__esModule\n\t\t\t\t\tif (cjsModule &amp;&amp; 'default' === 'default') {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"] &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"] ? __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"] : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"];\n\t\t\t\t\t} else if (cjsModule)  {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"];\n\t\t\t\t\t} else if ('default' === 'default') {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"] ? (__WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"] ? __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"] : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"]) : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__;\n\t\t\t\t\t}\n\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"] || __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"] &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__[\"default\"][\"default\"];\n\t\t\t\t} });","var x = y =&gt; { var x = {}; __webpack_require__.d(x, y); return x; }\nvar y = x =&gt; () =&gt; x\nconst __WEBPACK_NAMESPACE_OBJECT__ = x({ [\"createCustomElement\"]: () =&gt; {\n\t\t\t\t\tconst cjsModule = __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__.default &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__.__esModule\n\t\t\t\t\tif (cjsModule &amp;&amp; 'createCustomElement' === 'default') {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"] &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"][\"default\"] ? __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"][\"default\"] : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"];\n\t\t\t\t\t} else if (cjsModule)  {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"].createCustomElement;\n\t\t\t\t\t} else if ('createCustomElement' === 'default') {\n\t\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"] ? (__WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"][\"default\"] ? __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"][\"default\"] : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"]) : __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__;\n\t\t\t\t\t}\n\t\t\t\t\treturn __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__.createCustomElement || __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"] &amp;&amp; __WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__[\"default\"].createCustomElement;\n\t\t\t\t} });","import {createCustomElement} from '@servicenow/ui-core';\nimport snabbdom from '@servicenow/ui-renderer-snabbdom';\nimport styles from './styles.scss';\n\nconst view = (state, {updateState}) =&gt; {\n\n\tconst st = state.properties;\n\tconst urlAddress = st.frameUrl;\n\tconst frameTable = st.frameTable;\n\tconst frameRecord = st.frameRecord;\n\tconst urlParamTable = '&amp;table=' + frameTable;\n\tconst urlParamRecord = '&amp;record=' + frameRecord;\n\tvar url = urlAddress + urlParamTable + urlParamRecord;\n\n//parameters\n\tif(st.paramJSON){\n\t\turl += '&amp;paramjson=' + st.paramJSON;\n\t}\n\n\treturn (\n\t\t&lt;div id=\"portalPage\"&gt;\n\t\t\t&lt;iframe id='portal-page' src={url} title=\"\"&gt;&lt;/iframe&gt;\n\t\t&lt;/div&gt;\n\t);\n\n};\n\ncreateCustomElement('marslanding-lumen', {\n\trenderer: {type: snabbdom},\n\tview,\n\tproperties:\n\t\t{\n\t\t\tframeUrl: {default: 'URL &amp; Parameters'},\n\t\t\tframeRecord: {default: ''},\n\t\t\tframeTable: {default: ''},\n\t\t\tparamJSON: {default: ''}\n\t\t},\n\tstyles\n});\n","import * as exports from '../index.js';\nwindow.__TECTONIC__marslanding_lumen=exports;\nexport * from '../index.js';\n\n"],"names":["___CSS_LOADER_EXPORT___","push","module","id","exports","cssWithMappingToString","list","toString","this","map","item","content","needLayer","concat","length","join","i","modules","media","dedupe","supports","layer","undefined","alreadyImportedModules","k","_k","result","__esModule","default","__webpack_module_cache__","__webpack_require__","moduleId","cachedModule","__webpack_modules__","n","getter","d","a","definition","key","o","Object","defineProperty","enumerable","get","obj","prop","prototype","hasOwnProperty","call","r","Symbol","toStringTag","value","y","x","cjsModule","__WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_renderer_snabbdom_index_jsdbx_9af105b3__","createElement","__WEBPACK_EXTERNAL_MODULE__uxasset_externals_servicenow_ui_core_index_jsdbx_65e0859f__","createCustomElement","renderer","type","snabbdom","view","state","_ref","updateState","st","properties","url","frameUrl","frameTable","frameRecord","paramJSON","src","title","styles","window","__TECTONIC__marslanding_lumen"]}</content>
+    <is_attachment>false</is_attachment>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy>read</sys_policy>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <engine>21</engine>
+    <sys_class_name>sys_ux_lib_asset</sys_class_name>
+    <sys_update_name>sys_ux_lib_asset_46a8eb948cb83692aea86c71db63a29d</sys_update_name>
+  </sys_ux_lib_asset>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>46a8eb948cb83692aea86c71db63a29d</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>UX Asset</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_lib_component_d5ec47c22253ee79bdda6d38a67721be</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_lib_component action="INSERT_OR_UPDATE">
+    <required_sys_props/>
+    <required_translation_keys>[]</required_translation_keys>
+    <required_user_prefs/>
+    <source_script_name>marslanding-lumen</source_script_name>
+    <inner_components/>
+    <sys_id>d5ec47c22253ee79bdda6d38a67721be</sys_id>
+    <sys_name>marslanding-lumen</sys_name>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <tag>marslanding-lumen</tag>
+    <source_script/>
+    <iconLabel>list-outline</iconLabel>
+    <specialized>true</specialized>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy/>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <sys_class_name>sys_ux_lib_component</sys_class_name>
+    <sys_update_name>sys_ux_lib_component_d5ec47c22253ee79bdda6d38a67721be</sys_update_name>
+  </sys_ux_lib_component>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>d5ec47c22253ee79bdda6d38a67721be</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>UX Component Definition</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_lib_component_attr_6525f8bdb8171bda3d6ae6e94e6d6f13</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_lib_component_attr action="INSERT_OR_UPDATE">
+    <column_label>frameTable</column_label>
+    <element>frameTable</element>
+    <internal_type>string</internal_type>
+    <label> Table (parameter = 'table'</label>
+    <default_value>@context.props.table</default_value>
+    <mandatory>false</mandatory>
+    <read_only>false</read_only>
+    <max_length>255</max_length>
+    <model>d5ec47c22253ee79bdda6d38a67721be</model>
+    <name>var__m_sys_ux_lib_component_attr_d5ec47c22253ee79bdda6d38a67721be</name>
+    <order>NaN</order>
+    <sys_id>6525f8bdb8171bda3d6ae6e94e6d6f13</sys_id>
+    <sys_name>frameTable</sys_name>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <active>true</active>
+    <array>false</array>
+    <array_denormalized>false</array_denormalized>
+    <attributes/>
+    <audit>false</audit>
+    <calculation/>
+    <choice/>
+    <choice_field/>
+    <choice_table/>
+    <comments/>
+    <create_roles/>
+    <default_sort/>
+    <delete_roles/>
+    <dependent/>
+    <dependent_on_field/>
+    <display>false</display>
+    <dynamic_creation>false</dynamic_creation>
+    <dynamic_creation_script/>
+    <dynamic_default_value/>
+    <dynamic_ref_qual/>
+    <element_reference>false</element_reference>
+    <foreign_database/>
+    <function_definition/>
+    <function_field>false</function_field>
+    <help/>
+    <hint/>
+    <next_element/>
+    <primary>false</primary>
+    <read_roles/>
+    <reference/>
+    <reference_cascade_rule/>
+    <reference_floats>false</reference_floats>
+    <reference_key/>
+    <reference_qual/>
+    <reference_qual_condition/>
+    <reference_type/>
+    <size_class/>
+    <spell_check>false</spell_check>
+    <staged>false</staged>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy/>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <table_reference>false</table_reference>
+    <text_index>false</text_index>
+    <unique>false</unique>
+    <use_dependent_field>false</use_dependent_field>
+    <use_dynamic_default>false</use_dynamic_default>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual>false</virtual>
+    <widget/>
+    <write_roles/>
+    <xml_view>false</xml_view>
+    <sys_class_name>sys_ux_lib_component_attr</sys_class_name>
+    <sys_update_name>sys_ux_lib_component_attr_6525f8bdb8171bda3d6ae6e94e6d6f13</sys_update_name>
+  </sys_ux_lib_component_attr>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>6525f8bdb8171bda3d6ae6e94e6d6f13</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>Component Attribute</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_lib_component_attr_9cabdd39b3ca1f41e08fb27e8f04aa35</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_lib_component_attr action="INSERT_OR_UPDATE">
+    <column_label>frameRecord</column_label>
+    <element>frameRecord</element>
+    <internal_type>string</internal_type>
+    <label>Record ID (parameter = 'record'</label>
+    <default_value>@context.props.sysId</default_value>
+    <mandatory>false</mandatory>
+    <read_only>false</read_only>
+    <max_length>255</max_length>
+    <model>d5ec47c22253ee79bdda6d38a67721be</model>
+    <name>var__m_sys_ux_lib_component_attr_d5ec47c22253ee79bdda6d38a67721be</name>
+    <order>NaN</order>
+    <sys_id>9cabdd39b3ca1f41e08fb27e8f04aa35</sys_id>
+    <sys_name>frameRecord</sys_name>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <active>true</active>
+    <array>false</array>
+    <array_denormalized>false</array_denormalized>
+    <attributes/>
+    <audit>false</audit>
+    <calculation/>
+    <choice/>
+    <choice_field/>
+    <choice_table/>
+    <comments/>
+    <create_roles/>
+    <default_sort/>
+    <delete_roles/>
+    <dependent/>
+    <dependent_on_field/>
+    <display>false</display>
+    <dynamic_creation>false</dynamic_creation>
+    <dynamic_creation_script/>
+    <dynamic_default_value/>
+    <dynamic_ref_qual/>
+    <element_reference>false</element_reference>
+    <foreign_database/>
+    <function_definition/>
+    <function_field>false</function_field>
+    <help/>
+    <hint/>
+    <next_element/>
+    <primary>false</primary>
+    <read_roles/>
+    <reference/>
+    <reference_cascade_rule/>
+    <reference_floats>false</reference_floats>
+    <reference_key/>
+    <reference_qual/>
+    <reference_qual_condition/>
+    <reference_type/>
+    <size_class/>
+    <spell_check>false</spell_check>
+    <staged>false</staged>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy/>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <table_reference>false</table_reference>
+    <text_index>false</text_index>
+    <unique>false</unique>
+    <use_dependent_field>false</use_dependent_field>
+    <use_dynamic_default>false</use_dynamic_default>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual>false</virtual>
+    <widget/>
+    <write_roles/>
+    <xml_view>false</xml_view>
+    <sys_class_name>sys_ux_lib_component_attr</sys_class_name>
+    <sys_update_name>sys_ux_lib_component_attr_9cabdd39b3ca1f41e08fb27e8f04aa35</sys_update_name>
+  </sys_ux_lib_component_attr>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>9cabdd39b3ca1f41e08fb27e8f04aa35</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>Component Attribute</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_lib_component_attr_2624c9732d04159a17e8d256a592eec8</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_lib_component_attr action="INSERT_OR_UPDATE">
+    <column_label>paramJSON</column_label>
+    <element>paramJSON</element>
+    <internal_type>string</internal_type>
+    <label>Parameters (JSON) (parameter = 'paramjson')</label>
+    <default_value/>
+    <mandatory>false</mandatory>
+    <read_only>false</read_only>
+    <max_length>255</max_length>
+    <model>d5ec47c22253ee79bdda6d38a67721be</model>
+    <name>var__m_sys_ux_lib_component_attr_d5ec47c22253ee79bdda6d38a67721be</name>
+    <order>NaN</order>
+    <sys_id>2624c9732d04159a17e8d256a592eec8</sys_id>
+    <sys_name>paramJSON</sys_name>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <active>true</active>
+    <array>false</array>
+    <array_denormalized>false</array_denormalized>
+    <attributes/>
+    <audit>false</audit>
+    <calculation/>
+    <choice/>
+    <choice_field/>
+    <choice_table/>
+    <comments/>
+    <create_roles/>
+    <default_sort/>
+    <delete_roles/>
+    <dependent/>
+    <dependent_on_field/>
+    <display>false</display>
+    <dynamic_creation>false</dynamic_creation>
+    <dynamic_creation_script/>
+    <dynamic_default_value/>
+    <dynamic_ref_qual/>
+    <element_reference>false</element_reference>
+    <foreign_database/>
+    <function_definition/>
+    <function_field>false</function_field>
+    <help/>
+    <hint/>
+    <next_element/>
+    <primary>false</primary>
+    <read_roles/>
+    <reference/>
+    <reference_cascade_rule/>
+    <reference_floats>false</reference_floats>
+    <reference_key/>
+    <reference_qual/>
+    <reference_qual_condition/>
+    <reference_type/>
+    <size_class/>
+    <spell_check>false</spell_check>
+    <staged>false</staged>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy/>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <table_reference>false</table_reference>
+    <text_index>false</text_index>
+    <unique>false</unique>
+    <use_dependent_field>false</use_dependent_field>
+    <use_dynamic_default>false</use_dynamic_default>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual>false</virtual>
+    <widget/>
+    <write_roles/>
+    <xml_view>false</xml_view>
+    <sys_class_name>sys_ux_lib_component_attr</sys_class_name>
+    <sys_update_name>sys_ux_lib_component_attr_2624c9732d04159a17e8d256a592eec8</sys_update_name>
+  </sys_ux_lib_component_attr>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>2624c9732d04159a17e8d256a592eec8</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>Component Attribute</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_lib_component_attr_6bdb7d056c30622f1813214234047d77</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_lib_component_attr action="INSERT_OR_UPDATE">
+    <column_label>frameUrl</column_label>
+    <element>frameUrl</element>
+    <internal_type>string</internal_type>
+    <label>Frame URL (portal view/page)</label>
+    <default_value/>
+    <mandatory>false</mandatory>
+    <read_only>false</read_only>
+    <max_length>255</max_length>
+    <model>d5ec47c22253ee79bdda6d38a67721be</model>
+    <name>var__m_sys_ux_lib_component_attr_d5ec47c22253ee79bdda6d38a67721be</name>
+    <order>NaN</order>
+    <sys_id>6bdb7d056c30622f1813214234047d77</sys_id>
+    <sys_name>frameUrl</sys_name>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <active>true</active>
+    <array>false</array>
+    <array_denormalized>false</array_denormalized>
+    <attributes/>
+    <audit>false</audit>
+    <calculation/>
+    <choice/>
+    <choice_field/>
+    <choice_table/>
+    <comments/>
+    <create_roles/>
+    <default_sort/>
+    <delete_roles/>
+    <dependent/>
+    <dependent_on_field/>
+    <display>false</display>
+    <dynamic_creation>false</dynamic_creation>
+    <dynamic_creation_script/>
+    <dynamic_default_value/>
+    <dynamic_ref_qual/>
+    <element_reference>false</element_reference>
+    <foreign_database/>
+    <function_definition/>
+    <function_field>false</function_field>
+    <help/>
+    <hint/>
+    <next_element/>
+    <primary>false</primary>
+    <read_roles/>
+    <reference/>
+    <reference_cascade_rule/>
+    <reference_floats>false</reference_floats>
+    <reference_key/>
+    <reference_qual/>
+    <reference_qual_condition/>
+    <reference_type/>
+    <size_class/>
+    <spell_check>false</spell_check>
+    <staged>false</staged>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy/>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <table_reference>false</table_reference>
+    <text_index>false</text_index>
+    <unique>false</unique>
+    <use_dependent_field>false</use_dependent_field>
+    <use_dynamic_default>false</use_dynamic_default>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual>false</virtual>
+    <widget/>
+    <write_roles/>
+    <xml_view>false</xml_view>
+    <sys_class_name>sys_ux_lib_component_attr</sys_class_name>
+    <sys_update_name>sys_ux_lib_component_attr_6bdb7d056c30622f1813214234047d77</sys_update_name>
+  </sys_ux_lib_component_attr>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>6bdb7d056c30622f1813214234047d77</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>Component Attribute</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_macroponent_48d9e93d14c0b2ca24ffe5927e7cc902</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_macroponent action="INSERT_OR_UPDATE">
+    <name>Mars Landing Lumen</name>
+    <props>[{"name":"frameTable","label":" Table (parameter = 'table'","readOnly":false,"defaultValue":"@context.props.table","description":"Use this for contact name","valueType":"string","mandatory":false},{"name":"frameRecord","label":"Record ID (parameter = 'record'","readOnly":false,"defaultValue":"@context.props.sysId","description":"Record ID","valueType":"string","mandatory":false},{"name":"paramJSON","label":"Parameters (JSON) (parameter = 'paramjson')","readOnly":false,"defaultValue":"","description":"","valueType":"string","mandatory":false},{"name":"frameUrl","label":"Frame URL (portal view/page)","readOnly":false,"defaultValue":"","description":"Use this for the URL","valueType":"string","mandatory":false}]</props>
+    <root_component>d5ec47c22253ee79bdda6d38a67721be</root_component>
+    <root_component_config>{"frameTable":"@context/frameTable","frameRecord":"@context/frameRecord","paramJSON":"@context/paramJSON","frameUrl":"@context/frameUrl"}</root_component_config>
+    <sys_id>48d9e93d14c0b2ca24ffe5927e7cc902</sys_id>
+    <sys_name>Mars Landing Lumen</sys_name>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <associated_types>d8899a0473000010f7353c78caf6a750,c1251a89db4c1010793ddf6b5e96199c</associated_types>
+    <category>primitives</category>
+    <root_component_definition>{"availableSlots":[]}</root_component_definition>
+    <dispatched_events/>
+    <handled_events/>
+    <composition>[]</composition>
+    <layout>{}</layout>
+    <schema_version>1.0.0</schema_version>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy/>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <sys_class_name>sys_ux_macroponent</sys_class_name>
+    <sys_update_name>sys_ux_macroponent_48d9e93d14c0b2ca24ffe5927e7cc902</sys_update_name>
+  </sys_ux_macroponent>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>48d9e93d14c0b2ca24ffe5927e7cc902</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>UX Macroponent Definition</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_uib_toolbox_component_b73c337a1649d0303bf401265aa33ea1</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+    <description>This component is used to wrap Service Portal widgets. The widgets accept URL parameters table and sysId. Developed by: Jon DeLuna 2021.</description>
+    <icon/>
+    <label>Mars Landing Lumen</label>
+    <macroponent>48d9e93d14c0b2ca24ffe5927e7cc902</macroponent>
+    <internal_component>false</internal_component>
+    <config_layout/>
+    <external_configuration_sources>[]</external_configuration_sources>
+    <sys_id>b73c337a1649d0303bf401265aa33ea1</sys_id>
+    <sys_name>Mars Landing Lumen</sys_name>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <scripted_config_policy/>
+    <component_config>{}</component_config>
+    <category/>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy/>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <image_icon>5d9a89c14aa5f6f1f8884839589cfc7b</image_icon>
+    <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+    <sys_update_name>sys_uib_toolbox_component_b73c337a1649d0303bf401265aa33ea1</sys_update_name>
+  </sys_uib_toolbox_component>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>b73c337a1649d0303bf401265aa33ea1</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>Builder Component</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>sys_ux_lib_component_m2m_asset_f5d2534d6046005d83a6c5a7efd465a2</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <sys_ux_lib_component_m2m_asset action="INSERT_OR_UPDATE">
+    <component>d5ec47c22253ee79bdda6d38a67721be</component>
+    <asset>9bb385d766e504efd1732f4660b998f0</asset>
+    <sys_id>f5d2534d6046005d83a6c5a7efd465a2</sys_id>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy>read</sys_policy>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <sys_class_name>sys_ux_lib_component_m2m_asset</sys_class_name>
+    <sys_update_name>sys_ux_lib_component_m2m_asset_f5d2534d6046005d83a6c5a7efd465a2</sys_update_name>
+  </sys_ux_lib_component_m2m_asset>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>f5d2534d6046005d83a6c5a7efd465a2</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type>UX Component Assets</type>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+  <sys_update_xml action="INSERT_OR_UPDATE">
+    <application>b3bde834aea3a126b1d1eff546cd5216</application>
+    <category>customer</category>
+    <name>db_image_5d9a89c14aa5f6f1f8884839589cfc7b</name>
+    <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+  <db_image action="INSERT_OR_UPDATE">
+    <sys_class_name>db_image</sys_class_name>
+    <sys_update_name>db_image_5d9a89c14aa5f6f1f8884839589cfc7b</sys_update_name>
+    <name>sn_tile_icon/marslanding-lumen.svg</name>
+    <image>6c3d096d1f1390806c29943b9b4370c6</image>
+    <size_bytes>8423</size_bytes>
+    <sys_id>5d9a89c14aa5f6f1f8884839589cfc7b</sys_id>
+    <sys_name>sn_tile_icon/marslanding-lumen.svg</sys_name>
+    <sys_package>b3bde834aea3a126b1d1eff546cd5216</sys_package>
+    <sys_scope>b3bde834aea3a126b1d1eff546cd5216</sys_scope>
+    <sys_update_name>db_image_5d9a89c14aa5f6f1f8884839589cfc7b</sys_update_name>
+    <active>true</active>
+    <category>tectonic</category>
+    <format>svg</format>
+    <height/>
+    <sys_class_name>db_image</sys_class_name>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_policy/>
+    <sys_updated_name/>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <thumbnail/>
+    <width/>
+  </db_image>
+  <sys_attachment action="INSERT_OR_UPDATE">
+    <sys_id>6c3d096d1f1390806c29943b9b4370c6</sys_id>
+    <file_name>sn_tile_icon/marslanding-lumen.svg</file_name>
+    <hash>6ac748a00446e711da2a8ed50695633ea28b700bd75cb76734f1236adcc88f92</hash>
+    <size_bytes>8423</size_bytes>
+    <table_name>ZZ_YYdb_image</table_name>
+    <table_sys_id>5d9a89c14aa5f6f1f8884839589cfc7b</table_sys_id>
+    <compressed>true</compressed>
+    <content_type>image/svg+xml</content_type>
+    <size_compressed>3346</size_compressed>
+    <chunk_size_bytes>700000</chunk_size_bytes>
+    <average_image_color/>
+    <image_height/>
+    <image_width/>
+    <state>available</state>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_updated_by>tectonic</sys_updated_by>
+    <sys_class_name>sys_attachment</sys_class_name>
+    <sys_update_name>sys_attachment_6c3d096d1f1390806c29943b9b4370c6</sys_update_name>
+  </sys_attachment>
+  <sys_attachment_doc action="INSERT_OR_UPDATE">
+    <sys_id>e737b9287fe44ef34ce00ff42e249469</sys_id>
+    <data>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</data>
+    <position>0</position>
+    <length>4464</length>
+    <sys_attachment>6c3d096d1f1390806c29943b9b4370c6</sys_attachment>
+    <sys_created_by>tectonic</sys_created_by>
+    <sys_class_name>sys_attachment_doc</sys_class_name>
+    <sys_update_name>sys_attachment_doc_e737b9287fe44ef34ce00ff42e249469</sys_update_name>
+  </sys_attachment_doc>
+</record_update>]]></payload>
+    <remote_update_set>642c3091f1434600ac343b2425d10834</remote_update_set>
+    <sys_id>5d9a89c14aa5f6f1f8884839589cfc7b</sys_id>
+    <target_name>marslanding-lumen</target_name>
+    <type/>
+    <sys_created_by>CLI</sys_created_by>
+    <sys_created_on>2024-11-17 01:00:08</sys_created_on>
+    <sys_updated_by>CLI</sys_updated_by>
+    <sys_updated_on>2024-11-17 01:00:08</sys_updated_on>
+  </sys_update_xml>
+</unload>
