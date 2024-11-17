@@ -104,11 +104,11 @@ api.controller=function($scope,spUtil) {
 </div> 
   
 <div id="recData">
-   <div><label style="margin-right:3px;">Table From Workspace parameter:</label><span>{{data.tbl}}</span></div>
- <div><label style="margin-right:3px;">SysId From Workspace parameter:</label><span>{{data.rcd}}</span></div>
- <div><label style="margin-right:3px;">Record Number:</label><span>{{data.recNumber}}</span></div>
- <div><label style="margin-right:3px;">Opened For:</label><span>{{data.openedFor}}</span></div>
- <div><label style="margin-right:3px;">Short Description:</label><span>{{data.shortDescription}}</span></div>
+   <div><label>Table From Workspace parameter:</label><span>{{data.tbl}}</span></div>
+ <div><label>SysId From Workspace parameter:</label><span>{{data.rcd}}</span></div>
+ <div><label>Record Number:</label><span>{{data.recNumber}}</span></div>
+ <div><label>Opened For:</label><span>{{data.openedFor}}</span></div>
+ <div><label>Short Description:</label><span>{{data.shortDescription}}</span></div>
 </div>  
   
   
@@ -122,7 +122,7 @@ api.controller=function($scope,spUtil) {
 
 ### CSS
 ```css
-label {font-weight: bold;}
+label {font-weight:bold;margin-right:3px;}
 #recData,#message{margin-top:50px;}
 ```
 
