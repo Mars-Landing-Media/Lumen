@@ -115,7 +115,7 @@ api.controller=function($scope,spUtil) {
 </div>
 ```
 
-### HTML Template
+### CSS
 ```css
 *{border: none !important;}
 label {font-weight: bold;}
