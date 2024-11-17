@@ -39,7 +39,7 @@ These configurations will render the embedded Service Portal with the record con
 ## Installation
 
 ### Step 1: Download and Install the Update Set
-1. Download the `marslanding_lumen` update set from [GitHub](<insert_github_url_here>).
+1. Download the `marslanding_lumen` update set.
 2. Import and commit the update set through **Retrieved Update Sets** in your ServiceNow instance.
 
 ### Step 2: Add the Component in UI Builder
