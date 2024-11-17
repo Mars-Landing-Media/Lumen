@@ -4,6 +4,11 @@ Developer: Jon DeLuna
 
 Lumen is a custom ServiceNow Workspace component designed by **Jon DeLuna** under **Mars Landing Media LLC**. This component bridges the gap between Workspace and Service Portal, enabling users to embed a Service Portal page into a Workspace seamlessly. It allows for interaction with and display of data from the current record in real-time, providing a dynamic and integrated user experience.
 
+## Disclaimer
+
+This software is provided as-is and is intended for **personal use** within a **personal development instance** of ServiceNow. The developer, **Jon DeLuna**, and **Mars Landing Media LLC** are not liable or responsible for any damages, issues, or losses incurred through the use of this software. By using this component, you acknowledge that it is not officially supported or endorsed by ServiceNow. Use it at your own discretion.
+
+
 ## Features
 
 - **Seamless Embedding**: Embeds Service Portal pages within Workspace.
