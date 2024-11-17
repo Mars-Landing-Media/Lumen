@@ -1,39 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mars Landing Lumen Component</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            overflow: auto;
-        }
-        code {
-            font-family: "Courier New", Courier, monospace;
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-    </style>
-</head>
-<body>
     <h1>Mars Landing Lumen Component</h1>
 
     <div class="section">
@@ -166,5 +130,4 @@
         <h2>License</h2>
         <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
     </div>
-</body>
-</html>
+
