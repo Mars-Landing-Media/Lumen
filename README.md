@@ -1,4 +1,4 @@
-Lumen: ServiceNow Workspace Component
+<b>Lumen:</b> ServiceNow Workspace Component
 Description
 Lumen is a custom ServiceNow Workspace component designed by Jon DeLuna under Mars Landing Media LLC. This component bridges the gap between Workspace and Service Portal, enabling users to embed a Service Portal page into a Workspace seamlessly. It allows for interaction with and display of data from the current record in real-time, providing a dynamic and integrated user experience.
 
