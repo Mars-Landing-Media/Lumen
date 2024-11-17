@@ -79,8 +79,6 @@ The following Service Portal widget example is for **illustrative purposes only*
 api.controller=function($scope,spUtil) {
     var c = this;
 
-    c.getRcd = String($scope.data.rcd);
-
     var getRcd = String($scope.data.rcd);
     var getTbl = String($scope.data.tbl);
 
@@ -125,8 +123,7 @@ api.controller=function($scope,spUtil) {
 ### CSS
 ```css
 label {font-weight: bold;}
-#recData{margin-top:50px;}
-#message{margin-top:50px;}
+#recData,#message{margin-top:50px;}
 ```
 
 
