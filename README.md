@@ -6,7 +6,7 @@ Lumen is a custom ServiceNow Workspace component designed by **Jon DeLuna** unde
 
 ## Disclaimer
 
-This software is provided as-is and is intended for **personal use** within a **personal development instance** of ServiceNow. The developer, **Jon DeLuna**, and **Mars Landing Media LLC** are not liable or responsible for any damages, issues, or losses incurred through the use of this software. By using this component, you acknowledge that it is not officially supported or endorsed by ServiceNow. Use it at your own discretion.
+This software is provided as-is and is intended for **personal use** within a **personal development instance** from ServiceNow. The developer, **Jon DeLuna**, and **Mars Landing Media LLC** are not liable or responsible for any damages, issues, or losses incurred through the use of this software. By using this component, you acknowledge that it is not officially supported or endorsed by ServiceNow. Use it at your own discretion.
 
 
 ## Features
